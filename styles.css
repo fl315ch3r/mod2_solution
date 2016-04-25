@@ -1,0 +1,17 @@
+/*	Base styles */
+
+
+/* Desktop rules */
+@media (min-width: 992px){
+
+}
+
+/* Tablet rules */
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Mobile rules */
+@media (max-width: 767px){
+
+}
