@@ -5,34 +5,93 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+	font-size: 1.75em;
+}
+
 div{
 	background-color: #999999;
 	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	position: relative;
 }
 
-.sub-heading1{
+div#container{
+	position: absolute;
+	width: 100%;
+	border: none;
+	background-color: #FFFFFF;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 2%;
+}
+#title{
+	text-align: center;
+}
+
+p.sub-heading-general{
+	text-align: center;
+	font-size: 1.25em;
+	margin-right:-11px;
+	margin-top: -11px;
+	border: 1px solid black;
+	width: 100px;
+	float: right;
+}
+
+p.sub-heading1{
 	background-color: #D59898;
+	
 }
 
-.sub-heading2{
+p.sub-heading2{
 	background-color: #C14543;
+	f
 }
 
-.sub-heading3{
+p.sub-heading3{
 	background-color: #E5D198;
 }
 
 /* Desktop rules */
 @media (min-width: 992px){
+	
+	.col-lg-4{
+		margin-left: 1%;
+		margin-right: 1%;
+		width: 28.33%;
+		float: left;
 
+	}
 }
 
 /* Tablet rules */
 @media (min-width: 768px) and (max-width: 991px){
+	.col-md-4{
+		margin-left: 1%;
+		margin-right: 1%;
+		width: 44%;
+		float: left;
 
+	}
+
+	.col-md-12{
+		clear: left;
+		width: 92.5%;
+		margin-left: 1%;
+		margin-right: 1%;
+		float: left;
+	}
 }
 
 /* Mobile rules */
 @media (max-width: 767px){
-
+	.col-sm-12{
+		clear: left;
+		width: 92.5%;
+		margin-left: 1%;
+		margin-right: 1%;
+		float: left;
+	}
 }
